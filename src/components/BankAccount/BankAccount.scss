@@ -1,0 +1,52 @@
+.bank {
+    background: linear-gradient(45deg, rgb(177, 212, 218), rgb(113, 121, 163));
+    border-radius: 10px;
+    width: 60ch;
+    padding: 20px;
+    border: 2px solid rgb(93, 93, 117);
+    gap: 50px;
+
+    &__title {
+        color: white;
+        font-size: 40px;
+        text-shadow: 4px 4px 4px black;
+    } 
+
+    &__owner {
+        font-weight: bold;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 5px black;
+    }
+
+    &__currentbalance {
+        font-weight: bold;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 2px black;
+    }
+
+    &__currentfounds {
+        font-weight: bold;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 2px black;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__button {
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 15px;
+        background-color: rgb(203, 213, 230);
+
+        &:hover{
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}

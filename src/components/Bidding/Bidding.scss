@@ -1,0 +1,39 @@
+.bid {
+    background: linear-gradient(45deg, rgb(172, 208, 134), rgb(225, 221, 150));
+    border-radius: 10px;
+    width: 60ch;
+    padding: 20px;
+    border: 2px solid rgb(93, 93, 117);
+    margin-top: 20px;
+
+    &__title {
+        color: white;
+        font-size: 40px;
+        text-shadow: 4px 4px 4px black;
+    }
+
+    &__list {
+        text-align: left;
+        color: white;
+        font-weight: 600;
+        text-shadow: 1px 1px black;
+    }
+
+    &__bidders {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__button {
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 15px;
+        background-color: rgb(156, 193, 166);
+
+        &:hover{
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}
+  
